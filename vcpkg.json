@@ -1,0 +1,16 @@
+{
+  "name": "xse-address-lib-dumper",
+  "version-string": "1.0.0",
+  "description": "Dumps SKSE/F4SE address lib binaries to text",
+  "homepage": "https://github.com/nikitalita/xse-address-lib-dumper",
+  "license": "MIT",
+  "supports": "x64",
+  "dependencies": [
+    "mmio",
+    "cli11"
+  ],
+  "vcpkg-configuration": {
+    "overlay-ports": [ "./ports/" ]
+  }
+}
+
