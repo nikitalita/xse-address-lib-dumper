@@ -19,4 +19,4 @@ Options:
 
 ## Compiling:
 
-Use Visual Studio 2022.
+Use Visual Studio 2022. Make sure you have [vcpkg](https://github.com/microsoft/vcpkg) installed and run `vcpkg integrate install` first.
